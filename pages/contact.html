@@ -8,8 +8,35 @@
 </head>
 <body>
     <header>
-        <h1>Contact Me</h1>
+        <h1>Let's Connect</h1>
     </header>
-    
+    <main>
+        <section>
+            Let's keep in touch. Simply fill out your details in the form below.
+        </section>
+        <form>
+            <fieldset>
+                <legend>Contact Details</legend>
+                <label for="firstname">First name</label>
+                <input id="firstname" type="text">
+                <br>
+                <label for="lastname">Last name</label>
+                <input id="lastname" type="text">
+                <br>
+                <label for="email">Email</label>
+                <input id="email" type="email">
+            </fieldset>
+            <fieldset>
+                <legend>Message Details</legend>
+                <select name="Reason for contact">
+                    <option value="Social" selected>Social</option>
+                    <option value="Professional">Professional</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="text" name="Message">
+            </fieldset>
+            <button type="submit">Connect</button>
+        </form>
+    </main>
 </body>
 </html>
