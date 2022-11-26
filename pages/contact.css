@@ -9,4 +9,32 @@ nav {
 
 a {
     padding: 5px;
+}@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFD6E4;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 5px;
+    font-size: 18px;
+}
+
+a:hover {
+    font-size: 25px;
+}
+
+p {
+    font-size: 2ch;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
 }
